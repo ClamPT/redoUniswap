@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/interface",
+  "name": "redoUniswap",
   "description": "Uniswap Interface",
   "homepage": "https://ClamPT.github.io/redoUniswap",
   "private": true,
@@ -98,7 +98,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
-	"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app",
@@ -121,5 +121,9 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ClamPT/redoUniswap.git",
+  "author": "806555269@qq.com"
 }
